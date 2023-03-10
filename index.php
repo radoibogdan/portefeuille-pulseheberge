@@ -91,9 +91,9 @@ require 'elements/nav.php' ?>
         </p>
         <div class="media-object">
             <div class="icon-left">
-                <img class="icon" src="assets/logos/html5.svg" alt="graph chart">
-                <img class="icon" src="assets/logos/css3.svg" alt="graph chart">
-                <img class="icon" src="assets/logos/javascript.svg" alt="graph chart">
+                <img class="icon" src="assets/logos/html5.svg" alt="Logo Html">
+                <img class="icon" src="assets/logos/css3.svg" alt="Logo CSS">
+                <img class="icon" src="assets/logos/javascript.svg" alt="Logo Javascript">
             </div>
             <div class="blurb-wrapper-right">
                 <h3 class="blurb-header">Les fondamentaux</h3>
@@ -105,9 +105,9 @@ require 'elements/nav.php' ?>
         </div>
         <div class="media-object four_icons">
             <div class="icon-right">
-                <img class="icon" src="assets/logos/react.png" alt="graph chart">
-                <img class="icon" src="assets/logos/angular.png" alt="graph chart">
-                <img class="icon" src="assets/logos/vue.png" alt="graph chart">
+                <img class="icon" src="assets/logos/react.png" alt="Logo React">
+                <img class="icon" src="assets/logos/angular.png" alt="Logo Angular">
+                <img class="icon" src="assets/logos/vue.png" alt="Logo Vue">
             </div>
             <div class="blurb-wrapper-left">
                 <h3 class="blurb-header">Les frameworks JS</h3>
@@ -123,9 +123,9 @@ require 'elements/nav.php' ?>
         </div>
         <div class="media-object">
             <div class="icon-left">
-                <img class="icon" src="assets/logos/java.png" alt="graph chart">
-                <img class="icon image100h" src="assets/logos/Csharp.png" alt="graph chart">
-                <img class="icon" src="assets/logos/symfony.svg" alt="graph chart">
+                <img class="icon" src="assets/logos/java.png" alt="Logo Java">
+                <img class="icon image100h" src="assets/logos/Csharp.png" alt="Logo Csharp">
+                <img class="icon" src="assets/logos/symfony.svg" alt="Logo Symfony">
             </div>
             <div class="blurb-wrapper-right">
                 <h3 class="blurb-header">Le backend et les Api</h3>
@@ -143,11 +143,11 @@ require 'elements/nav.php' ?>
         <div class="media-object">
             <div class="icon-right">
                 <div class="icon icon-subcontainer">
-                    <img class="icon icon-adjust" src="assets/logos/GitHub.svg" alt="graph chart">
-                    <img class="icon icon-adjust" src="assets/logos/seo.png" alt="graph chart">
+                    <img class="icon icon-adjust" src="assets/logos/GitHub.svg" alt="Logo Github">
+                    <img class="icon icon-adjust" src="assets/logos/seo.png" alt="Logo Seo">
                 </div>
-                <img class="icon" src="assets/logos/Photoshop.png" alt="graph chart">
-                <img class="icon" src="assets/logos/scrum.jpg" alt="graph chart">
+                <img class="icon" src="assets/logos/Photoshop.png" alt="Logo Photoshp">
+                <img class="icon" src="assets/logos/scrum.jpg" alt="Logo Scrum">
             </div>
             <div class="blurb-wrapper-left">
                 <h3 class="blurb-header">Autres outils</h3>
@@ -168,27 +168,27 @@ require 'elements/nav.php' ?>
         </div>
         <div class="portfolio-wrapper">
             <div class="portfolio-object">
-                <a href="https://mediationcmfm.eu/" target="_blank"><img src="assets/cmfm2.JPG" class="portfolio-box"></img></a>
+                <a href="https://mediationcmfm.eu/" target="_blank"><img alt="Projet CMFM" src="assets/cmfm2.JPG" class="portfolio-box"></a>
                 <h4>Projet CMFM</h4>
                 <div class="portfolio-text">Pour un client dans les secteur de la médiation automobile, création du site en Wordpress.</div>
             </div>
             <div class="portfolio-object">
-                <a href="https://www.truffaut.com/anti-gaspi.html" target="_blank"><img src="assets/truffaut.JPG" class="portfolio-box"></img></a>
+                <a href="https://www.truffaut.com/anti-gaspi.html" target="_blank"><img alt="Truffaut" src="assets/truffaut.JPG" class="portfolio-box"></a>
                 <h4>Intégrations Truffaut</h4>
                 <div class="portfolio-text">Pour le client Truffaut, création de multiples page en Html/CSS</div>
             </div>
             <div class="portfolio-object">
-                <a href="blog/index.html" target="_blank"><img src="assets/blog_projet.PNG" class="portfolio-box"></img></a>
+                <a href="blog/index.html" target="_blank"><img alt="Blog clasique en HTML et CSS" src="assets/blog_projet.PNG" class="portfolio-box"></a>
                 <h4>Projet Blog</h4>
                 <div class="portfolio-text">Blog clasique en HTML et CSS en responsive design (création GrafikArt)</div>
             </div>
             <div class="portfolio-object">
-                <a href="reseau_social/index.html" target="_blank"><img src="assets/reseau_social_projet.PNG" class="portfolio-box"></img></a>
+                <a href="reseau_social/index.html" target="_blank"><img alt="Esquisse d'un réseau social" src="assets/reseau_social_projet.PNG" class="portfolio-box"></a>
                 <h4>Projet Réseau Social</h4>
                 <div class="portfolio-text">Esquisse d'un réseau social en HTML + CSS + responsive design (création GrafikArt)</div>
             </div>
             <div class="portfolio-object">
-                <a href="http://holovr-prod.com" target="_blank"><img src="assets/holovr.jpg" class="portfolio-box"></img></a>
+                <a href="http://holovr-prod.com" target="_blank"><img alt="Site vitrine dans le domaine" src="assets/holovr.jpg" class="portfolio-box"></a>
                 <h4>Projet Wordpress - Stage </h4>
                 <div class="portfolio-text">Site vitrine dans le domaine de la réalité virtuelle développé de A-Z pendant mon stage </div>
             </div>
@@ -207,7 +207,7 @@ require 'elements/nav.php' ?>
         </div>
         <div class="portfolio-wrapper">
             <div class="portfolio-object">
-                <a href="https://github.com/radoibogdan/symfony4-assum" target="_blank"><img src="assets/symfony_projet.png" class="portfolio-box"></img></a>
+                <a href="https://github.com/radoibogdan/symfony4-assum" target="_blank"><img alt="Symfony projet" src="assets/symfony_projet.png" class="portfolio-box"></a>
                 <h4>Projet Symfony 4.4</h4>
                 <div class="portfolio-text">Projet plateforme produits assurance-vie disponible sur <a class="lien-github" target="_blank" href="https://github.com/radoibogdan/symfony4-assum">Github</a></div>
             </div>
