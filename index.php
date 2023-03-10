@@ -124,7 +124,7 @@ require 'elements/nav.php' ?>
         <div class="media-object">
             <div class="icon-left">
                 <img class="icon" src="assets/logos/java.png" alt="graph chart">
-                <img class="icon image100h" src="assets/logos/csharp.png" alt="graph chart">
+                <img class="icon image100h" src="assets/logos/Csharp.png" alt="graph chart">
                 <img class="icon" src="assets/logos/symfony.svg" alt="graph chart">
             </div>
             <div class="blurb-wrapper-right">
