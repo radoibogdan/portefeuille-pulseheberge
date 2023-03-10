@@ -1,0 +1,53 @@
+/* Sticky footer - Parfait */
+html , body {
+    height: 100%;
+  }
+
+body {
+    display: flex;
+    flex-direction: column; 
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+}
+
+footer ul li {
+    padding: 2px;
+    margin: 1px;
+    border: #6c757d;
+    background-color: #6c757d;
+    border-radius: 0.25rem;
+}
+
+footer ul li a {
+    color: white;
+    font-size: 1.1rem;
+    padding: 0 2px;
+}
+
+/* Sticky footer - Good */
+/* html , body {
+  height: 100%;
+}
+
+main {
+    min-height: 100%;
+    margin-bottom: 250px;
+}
+
+footer {
+    width: 100%;
+    min-height: 250px;
+    
+} */

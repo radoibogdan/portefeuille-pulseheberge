@@ -1,0 +1,733 @@
+/* greek-ext */
+@font-face {
+  font-display: swap; /*update default fonts before downloading personal fonts*/
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cardo Bold'), local('Cardo-Bold'), url(https://fonts.gstatic.com/s/cardo/v11/wlpygwjKBV1pqhND-ZQa-WN3aQ.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-display: swap; 
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cardo Bold'), local('Cardo-Bold'), url(https://fonts.gstatic.com/s/cardo/v11/wlpygwjKBV1pqhND-ZQV-WN3aQ.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-display: swap; 
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cardo Bold'), local('Cardo-Bold'), url(https://fonts.gstatic.com/s/cardo/v11/wlpygwjKBV1pqhND-ZQY-WN3aQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cardo Bold'), local('Cardo-Bold'), url(https://fonts.gstatic.com/s/cardo/v11/wlpygwjKBV1pqhND-ZQW-WM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-display: swap; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-display: swap; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-display: swap; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-display: swap; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-display: swap; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gTD_u50.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-display: swap; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3g3D_u50.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-display: swap; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gbD_u50.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gfD_u50.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*######################## Transfonter ##################################*/
+/*@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Bold.eot');
+    src: url('fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('fonts/Montserrat-Bold.woff') format('woff'),
+        url('fonts/Montserrat-Bold.ttf') format('truetype'),
+        url('fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.eot');
+    src: url('fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('fonts/Montserrat-Regular.woff') format('woff'),
+        url('fonts/Montserrat-Regular.ttf') format('truetype'),
+        url('fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}*/
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    font-size: 16px;
+    font-family:"Montserrat", sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 1.6;
+    margin: 0;
+    font-weight: 400;
+}
+
+.topbar {
+    position: absolute;
+    background: #FFF;
+    width: 100%;
+    padding: 30px;
+    z-index: 3;
+    box-shadow: inset 0 0 3px 2px #000000;
+}
+
+.topbar nav {
+    text-align: center;
+}
+
+.topbar nav a {
+    display: inline-block;
+    color: #9f9f9f;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+    transition: color .3s;
+    white-space: nowrap;
+    margin: 0px 20px 5px 20px;
+}
+
+.topbar nav a:hover, .topbar nav a.active {
+    color: #000;
+}
+
+.topbar .social a img {
+    height: 30px;
+}
+
+.social {
+    text-align: center;
+}
+.social a {
+    padding: 0 12px;
+    opacity: .5;
+    transition: opacity .3s;
+}
+
+.social a:hover {
+    opacity: 1;
+}
+
+.banniere {
+    height: 427px;
+    background: no-repeat center / cover url("img/tech%20lung.jpg");
+    /*filter: blur(15px);*/
+    
+}
+
+.main {
+    background: #FFF;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    position: relative;/*for the box shadow to appear on the main*/
+}
+
+.sidebar {
+    font-size: 17px;
+    padding: 40px;
+    position: relative; /*for the box shadow to appear on the main*/
+    z-index: 1;
+    background: #fbfbfb;
+}
+
+.sidebar-title {
+    font-size: 30px;
+    color: #000;
+    margin: 15px 0;
+}
+
+.sidebar-title:first-child {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 6px 0;
+}
+
+/*.sidebar li:first-child {
+    padding-top: 0;
+}
+
+.sidebar li:last-child {
+    padding-bottom: 0;
+}*/
+
+.sidebar a {
+    color: #9f9f9f;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.sidebar hr {
+    border:none;
+    background: #c4c4c4;
+    height: 1px;
+    margin: 50px 0;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.article {
+    /*overflow: hidden; for the articles to be well aligned*/
+    margin: 50px 0;
+} 
+
+.article a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.article a:hover {
+    text-decoration: underline;
+}
+
+.article-img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.article-img img {
+    width: 100%;
+    height: auto;
+}
+
+.article-date {
+    font-weight: 300;
+    color: rgba(0, 0, 0, .6);
+    margin-bottom: 5px;
+    
+}
+
+.article-title {
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-family: "Cardo", serif;
+    margin: 0 0 15px 0;
+}
+
+.footer {
+    clear: both; /*used with floats to push down or up the elements*/
+    padding: 10px;
+}
+
+
+/* ############ PSEUDO ELEMENTS ##############*/
+
+p::selection {
+  color: gold;
+  background-color: red;
+} 
+
+/*
+p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}
+*/
+
+/*
+.sidebar li::before{
+    content: '-';
+}
+*/
+
+/*
+.sidebar li::after {
+    content: ".";
+}
+*/
+
+
+.article-title::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: #000;
+}
+
+blockquote {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: relative;
+}
+
+blockquote::before{
+    content:'❝';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 60px;
+    line-height: 1.4rem;
+}
+
+blockquote::after{
+    content:'❞';
+    content:'❝';
+    position: absolute;
+    bottom: -25px;
+    right: 5px;
+    font-size: 60px;
+    line-height: 1.4rem;
+}
+
+/*
+.sidebar li:first-child::before {
+    content: "1. ";
+}
+
+.sidebar li:nth-child(2)::before {
+    content: "2. ";
+}
+*/
+
+/*part 1*/
+/*
+.sidebar ul {
+    counter-reset: sidebarlist;
+}
+*/
+
+/*part 2*/
+/*
+.sidebar li::before{
+    counter-increment: sidebarlist;
+    content: counter(sidebarlist) ". "
+}
+*/
+
+.sidebar li a::after {
+    content: attr(datacounter);
+    float: right;
+    background: grey;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+
+
+/* ############ TRANSFORM ##############*/
+
+/*EX 1*/
+/*
+.article-img {
+    transform: translate(100px, 100px);
+    transform: translateX(100px);
+    transform: translateY(100px);
+    transform: rotate(30deg);
+    transform: scale(1);
+    transform: scale(.5, 2);
+    
+}
+*/
+
+/*EX 2*/
+/*
+.article-img:hover {
+    transform: scale(1.2) rotate(10deg);
+    transform: skew(10deg);
+    transform: scale(1.2) rotate(10deg) skewY(3deg);
+}
+*/
+
+/*EX 3*/
+/*
+.article {
+    perspective:500px;
+    perspective-origin: right bottom;
+}
+.article-img {
+    transform: translate3d(0, 0, 400px);
+    transform: rotatex(-80deg);
+} 
+*/
+
+/*EX 4*/
+/*
+.article-img {
+    transform: rotate(30deg);
+    transform-origin: left top;
+} 
+*/
+
+/*EX 5 */
+/*
+.article-img:hover {
+    transform: scale(1.1) rotate(5deg);
+    transform-origin: left top;
+    transition: transform ease-in-out 1s;
+}
+*/
+
+/*EX 6 */
+.span-transform {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 5px 15px;
+    transform: translate(0%, 100%)
+}
+
+/*EX 7 */
+/*
+.span-transform {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    background: red;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 5px 15px;
+    transform: translate(50%, -50%);
+}
+*/
+
+/* ############ TRANSITION ##############*/
+
+/*EX 1*/
+.article-img {
+    transition: all 1s;
+}
+
+.article-img:hover {
+    transform: scale(1.1) rotate(10deg);
+}
+
+/*EX 2*/
+/*
+@keyframes slideDown{
+    from {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.article-img {
+    transition: .5s;
+    animation: slideDown 10s;
+}
+*/
+
+/*EX 3*/
+/*
+@keyframes slideDown{
+    0% {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+}
+
+.article-img {
+    transition: .5s;
+    animation: slideDown 1s infinite reverse;
+}
+*/
+
+/*EX 4*/
+/*
+@keyframes slideDown {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+}
+
+.article-img {
+    transition: .5s;
+    animation: slideDown 1s forwards;
+}
+*/
+
+/*EX 5*/
+/*
+@keyframes slideDown {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+}
+
+.article-img {
+    transition: .5s;
+    animation: slideDown 3s infinite;
+}
+
+.article-img:hover {
+    animation-play-state:paused;
+}
+*/
+
+
+/*
+@media screen and (max-width: 1100px) {
+    .body {
+        display: block;
+    }
+    
+    .main {
+        width:100%;
+    }
+    
+    .sidebar {
+        width: 100%;
+    }
+    
+    .main .container {
+        overflow: hidden;
+    }
+}
+
+@media (max-width:740px) {
+    .container {
+        padding: 0 20px;
+    }
+    .article {
+        padding-left: 0;
+    }
+    
+    .article-img {
+        width: 100%;
+        position: static;
+        margin-bottom: 1rem;
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 860px) {
+    .topbar {
+        position: absolute;
+    }
+    
+    
+    .topbar nav, .social {
+        float: none;
+        text-align: center;
+    }
+    
+    .topbar nav {
+        padding-bottom: 15px;
+    }
+    
+    .topbar nav a {
+        margin: 0 20px 5px 20px;
+        white-space: nowrap;
+        display: inline-block;
+    }
+}
+*/
+
+@media only screen and (min-width: 740px) {
+    .article {
+        padding-left: 333px;
+        position: relative;
+    }
+    
+    .article-img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width:308px;
+    }
+}
+
+@media only screen and (min-width: 1120px) { 
+     .topbar {
+        position: fixed;
+        top :0;
+        left: 0;
+        right: 0;
+    }
+    
+    .topbar nav {
+        float: left;
+    }
+
+    .social {
+        float: right;
+    }
+    
+    .topbar nav a {
+        padding: 0 53px;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .body {
+        display: flex;
+    }
+    
+    .sidebar {
+        flex: none;
+        width: 375px;
+    }
+    .span-transform {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 5px 15px;
+    transform: translate(50%, -50%)
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

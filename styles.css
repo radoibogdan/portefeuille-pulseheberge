@@ -1,0 +1,395 @@
+html, body {
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 1rem;
+    color :#303137;
+    margin: 0;
+    overflow-x: hidden !important;
+    /*Hiddes annoying scroolbar */
+}
+
+img {
+    height: 100%;
+}
+
+.navbar, .container {
+    max-width: 1140px; /*creates gutter space/ blank space left and right of the page*/
+    width: 100%;       /*creates gutter space/ blank space left and right of the page*/
+    margin: 0 auto;    /*creates gutter space/ blank space left and right of the page*/
+}
+
+.navbar {
+    justify-content: space-between; 
+    padding: 10px;
+    display: flex;
+}
+
+.brand, .nav-link, a {
+    text-transform: uppercase;
+    color: #303137;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+.brand {
+    /*margin-right: auto;*/
+    font-size: 25px;
+}
+
+.sensei {
+    color: #66B6D3;
+}
+
+.topnav{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topnav .nav-link, a {
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.dropdownLink {
+    display: none;
+}
+
+.alert-danger {
+    color: red;
+    font-weight: 700;
+    text-align: center;
+    border: 2px solid #ec0303;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.alert-success {
+    color: green;
+    font-weight: 700;
+    text-align: center;
+    border: 2px solid #15d80f;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.headshot-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.headshot {
+    border-radius: 50%;
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.services, .contact-container {
+    background-color: #F1F3FA;
+    padding: 2rem 1rem;
+}
+
+.media-object {
+    display: flex;
+    align-items: center;
+    padding: 4rem 1rem;
+}
+
+.icon-left, .icon-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blurb-wrapper-right, .blurb-wrapper-left {
+    flex: 1;
+}
+
+.icon-left, .blurb-wrapper-left {
+    order: 1;
+}
+
+.icon-right, .blurb-wrapper-right {
+    order: 2; 
+}
+
+.four_icons .icon {
+    margin: 0 10px;
+}
+
+.icon {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.icon-subcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.icon-adjust {
+    width: 100%;
+    height: 45%;
+}
+
+.blurb-wrapper {
+    flex: 1;
+}
+
+.blurb-header {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.blurb-info {
+    color: #646B90;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.blurb-info-paragraph {
+    color: #646B90;
+    font-size: 18px;
+    text-align: justify;
+    width: 80%;
+    line-height: 26px;
+    margin: 0 auto;
+}
+
+.lien-github {
+    color: #646B90;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 26px;
+    text-decoration: underline;
+    padding: 0;
+}
+
+.lien-github:hover {
+    font-weight: bold;
+}
+
+.quote-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.quote-btn {
+    border: none;
+    color: #FFFFFF;
+    background-color: #66B6D3;
+    padding: .8rem 4rem;
+    font-size: 18px;
+    border-radius: 4px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.3);
+}
+
+.section-header {
+    text-align: center;
+    padding: 2rem 0 2rem;
+}
+
+.portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-object {
+    max-width: 300px;
+    margin: 1rem 0;
+}
+
+.portfolio-object a {
+    padding: 0;
+}
+
+.portfolio-box {
+    width: 250px;
+    height: 250px;
+    background-color: #F1F3FA;
+    transition: .2s ease-in-out; /*works with the hover action*/
+}
+
+.portfolio-box:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+form {
+    margin: 0 auto;
+    max-width: 600px;;
+}
+
+form label {
+    font-size: 14px;
+}
+
+.form-group {
+    margin-bottom: .75rem;
+}
+
+.form-control {
+    max-width: 600px;
+    width:100%;
+    background-color: #ffffff;
+    color: #292b2c;
+    border-radius: 2px;
+    border: 1px solid #ced4da;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    background-clip: padding-box;
+    display: block;
+}
+
+/*################################# MEDIA QUERY #####################################*/
+
+@media (max-width: 1180px) {
+    .topnav {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 768px) { 
+    ul.topnav li a.nav-link {
+        display: none;
+    }
+
+    ul.topnav li.dropdownLink {
+        display: block;
+        position: absolute;
+        top:15px;
+        right: 20px;
+    }
+    
+    /* on click burger icon(dropdownLink) keeps position */
+    ul.topnav.responsive li.dropdownLink {
+        position: absolute;
+        top: 15px;
+        right: 20px; 
+    }
+    
+    /* topnav is set to flex */
+    ul.topnav.responsive {
+        flex-direction: column;
+        text-align: right;
+    }
+    
+     ul.topnav.responsive li {
+        position: relative;
+        top: 30px;
+        right: 30px;
+    }
+
+    /* display block so they can stack up */
+    ul.topnav.responsive li a.nav-link {
+        display: block;
+        line-height: 2;
+    }
+    
+    .headshot-wrapper {
+        padding: 1rem 0;
+        line-height: 1.1;
+    }
+
+    .media-object {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem 1rem;
+    }
+    
+    .icon-right, icon-left {
+        order: 1;
+        width: 100%;
+    }
+    
+    .blurb-wrapper-left,
+    .blurb-wrapper-right {
+        order: 2;
+        padding-top: 2rem;
+    }
+    
+    .portfolio-wrapper{
+        text-align: center;
+    }
+    
+    .form-group {
+        display: flex; 
+    }
+    
+    .submit-btn-wrapper{
+        text-align: center;
+    }
+    .section-header {
+        padding: 0.5rem 0 0.5rem;
+    }
+}
+
+@media (max-width: 599px) {
+    .portfolio-wrapper {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 599px) {
+    .portfolio-wrapper {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 496px) {
+    .portfolio-object {
+        max-width: 90vw;
+    }
+
+    .portfolio-box {
+      width: 90vw;
+      height: 90vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
